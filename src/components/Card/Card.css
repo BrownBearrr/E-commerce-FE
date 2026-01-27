@@ -1,0 +1,32 @@
+.card_list {
+    position: relative;
+}
+
+.card_item{
+    text-align: center;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.card_img img {
+    margin-bottom: 10px;
+    border-radius: 12px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+/* Arrow */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.arrow_left {
+    left: -20px;
+}
+
+.arrow_right {
+    right: -20px;
+}

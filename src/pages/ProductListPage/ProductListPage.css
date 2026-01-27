@@ -1,0 +1,19 @@
+.product_box {
+  display: flex;
+  align-items: flex-start ;
+  justify-content: space-between;
+}
+
+.product_left {
+  width: 20%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product_right {
+  width: 75%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,22 @@
+.categories_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px ;
+}
+
+.categories_item {
+  width: 23%;
+  text-align: start;
+  cursor: pointer;
+}
+
+.categories_img img {
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.categories_dsc {
+  font-size: 13px;
+  font-weight: 500;
+  color: #7F7F7F;
+}
