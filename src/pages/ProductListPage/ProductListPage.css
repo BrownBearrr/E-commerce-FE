@@ -9,6 +9,7 @@
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .product_right {
@@ -16,4 +17,27 @@
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
+}
+
+.product_filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.title_filter {
+  font-size: 22px ;
+  color: #807D7E ;
+}
+
+.icon_filter {
+  font-size: 20px ;
+  color: #807D7E ;
+}
+
+.text_filter {
+  font-size: 14px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import "./Categories.css";
+import "./Category.css";
 
 const Categorires = (props) => {
   const { title, data } = props;

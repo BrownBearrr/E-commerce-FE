@@ -3,7 +3,7 @@ import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
 import HeroSection from "./components/HeroSection/HeroSection";
 import NewArrival from "./components/Sections/NewArrivals/NewArrivals";
-import Categorires from "./components/Sections/Categories/Categories";
+import Category from "./components/Sections/Categories/Category";
 import content from "./data/content.json";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <NewArrival></NewArrival>
 
       {content.pages.shop.sections.map((section, index) => (
-        <Categorires key={index} title={section.title} data={section.data} />
+        <Category key={index} title={section.title} data={section.data} />
       ))}
       
     </div>

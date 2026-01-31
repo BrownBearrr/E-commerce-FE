@@ -1,0 +1,28 @@
+.filter_color_list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.filter_color_item{
+  width: 20%;
+  margin: 10px;
+}
+
+.filter_color_bg{
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.filter_color_name {
+  text-align: center;
+  margin-top: 8px;
+  color: #8A8989;
+}

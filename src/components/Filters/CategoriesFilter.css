@@ -1,0 +1,25 @@
+.filter_categories_list{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px; 
+}
+
+.filter_categories_item{
+  display: flex ;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.check_box_filter{
+  background-color: black;
+  accent-color: black;
+  margin:5px 20px 5px 0px;
+  cursor: pointer;
+}
+
+.filter_categories_name {
+  color: #8A8989;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
