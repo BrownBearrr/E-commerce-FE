@@ -1,0 +1,27 @@
+.rating_section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating_list {
+  display: flex;
+}
+
+.rating_star_active{
+  color: #EDD146 ;
+  margin-right: 5px;
+  font-size: 22px;
+}
+
+.rating_star_inactive{
+  color: #CCCCCC ;
+  margin-right: 5px;
+  font-size: 22px;
+}
+
+.rating_number {
+  font-size: 18px;
+  font-weight: 500;
+  color: #807D7E;
+}

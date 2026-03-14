@@ -3,15 +3,20 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content:flex-start;
 }
 
 .filter_size_item {
   width: 25%;
+  max-width: 70px ;
   margin: 0 10px 10px 0;
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 4px;
   cursor: pointer;
   color: #8c9797 ;
+}
+
+.filter_size_item:hover {
+  scale: calc(1.1);
 }

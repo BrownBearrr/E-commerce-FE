@@ -1,0 +1,19 @@
+.product_color_list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product_color_item {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.product_color_item:hover {
+  border-color: #9c9b9b;
+  transform: scale(1.5);
+}

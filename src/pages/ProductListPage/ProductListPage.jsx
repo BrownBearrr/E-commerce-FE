@@ -56,7 +56,7 @@ const ProductListPage = (props) => {
             </div>
             <SizeFilter size = {categoryContent?.meta_data?.sizes} />
           </div>
-          <div className="product_right" style={{height: '2000px'}}>
+          <div className="product_right">
             <ProductCard productList={productListItems} />
           </div>
         </div>

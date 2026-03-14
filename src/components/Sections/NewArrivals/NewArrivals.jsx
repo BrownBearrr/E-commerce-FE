@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../App.css";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import Card from "../../Card/Card";
 import jeansImg from "../../../assets/img/jeans.jpg";
@@ -39,8 +40,10 @@ const items = [
 const NewArrival = () => {
   return (
     <>
-      <SectionHeading title="New Arrival"></SectionHeading>
-      <Card cardList={items}></Card>
+      <div className="container">
+        <SectionHeading title="New Arrival"></SectionHeading>
+        <Card cardList={items}></Card>
+      </div>
     </>
   );
 };

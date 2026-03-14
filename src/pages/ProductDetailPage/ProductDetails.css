@@ -1,0 +1,117 @@
+.product_detail {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.product_detail_image_section {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.product_detail_info_section {
+  width: 55%;
+}
+
+.product_detail_img {
+  width: 80%;
+  aspect-ratio: 26/39;
+  border-radius: 8px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.product_detail_list_img {
+  width: 15%;
+}
+
+.product_detail_item_img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: #ddd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product_detail_title {
+  font-size: 34px;
+  line-height: 140%;
+  font-weight: 400;
+  letter-spacing: 2%;
+  margin-top: 20px;
+  color: #3C4242;
+}
+
+.product_detail_price {
+  font-size: 28px;
+  font-weight: 600;
+  color: #3F4646;
+  margin-top: 10px;
+}
+
+.product_detail_size {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.product_detail_size_select {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3F4646;
+  cursor: pointer;
+}
+
+.product_detail_size_guide {
+  font-size: 16px;
+  font-weight: 500;
+  color: #807D7E;
+  cursor: pointer;
+}
+
+.product_detail_color {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3F4646;
+}
+
+.product_detail_button_add {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.product_detail_benefit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.product_detail_benefit_item {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  color: #3F4646;
+}
+
+.product_detail_description {
+  font-weight: 400 ;
+  font-size: 16px ;
+  color: #807D7E;
+}

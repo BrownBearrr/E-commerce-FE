@@ -7,8 +7,9 @@ const Categorires = (props) => {
 
   return (
     <>
-      <SectionHeading title={title} />
+      
       <div className="container">
+        <SectionHeading title={title} />
         <div className="categories_list">
           {data.map((category) => (
             <div className="categories_item" key={category.id}>

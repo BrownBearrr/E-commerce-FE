@@ -1,52 +1,13 @@
 import React from "react";
-import "../../../App.css"
-import "./SectionHeading.css"
+import "../../../App.css";
+import "./SectionHeading.css";
 const SectionHeading = (props) => {
-    const {title} = props
-    return (
-        <>
-            <div className="container">
-                <div className="section_heading">{title}</div>
-            </div>
-        </>
-    )
-}
+  const { title } = props;
+  return (
+    <>
+      <div className="section_heading">{title}</div>
+    </>
+  );
+};
 
-export default SectionHeading 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default SectionHeading;
